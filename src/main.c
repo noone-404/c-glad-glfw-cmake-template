@@ -1,3 +1,4 @@
+// If they are not found try building the project with cmake first.
 #include <glad/gl.h>
 #include <GLFW/glfw3.h>
 
