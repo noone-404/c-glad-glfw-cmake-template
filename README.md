@@ -1,4 +1,4 @@
-# c-glad-glfw-cmake-template
+# C-Glad-GLFW-Cmake-Template
 
 This project template automatically configures glad, glfw, OpenGL with the C programming language and the cmake build system so you won't have to
 
@@ -24,3 +24,10 @@ to match the cpp file instead
 add_executable(toy src/main.cpp)
 ```
 Those are all the changes that need to be made
+
+# Licensing & Dependencies
+The dependencies used in this repository are **not** my own; each has its respective license, linked to its GitHub repository.
+
+- [GLFW](https://github.com/glfw/glfw?tab=Zlib-1-ov-file) - Licensed under the zlib/libpng license (see `third_party/glfw_LICENSE.txt`).
+
+- [GLAD](https://github.com/Dav1dde/glad/tree/glad2?tab=License-1-ov-file) - GLAD is released into the public domain under the CC0-1.0 license but includes some files under MIT/Apache 2.0. See their repository for more details and refer to the LICENSE here `third_party/glad_LICENSE.txt`
